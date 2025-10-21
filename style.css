@@ -125,6 +125,7 @@ div > img{
   align-items: center;
   gap: 30px;
 }
+/* margin left and right 40px to h2 to give space between numbers */
 .User-ammount div h2{
   font-size: 70px;
   margin-bottom: 20px;
@@ -203,12 +204,14 @@ div > img{
   width: 100%;
   
 }
-
+/* color  change to gray */
 .reviewer .date {
   font-size: 14px;
-  color: #777;
+  color: #aaaaaa;
   margin: 0;
 }
+/* applying height for increase vertical space */
+
 .last-section-text{
   max-width: 1140px;
   margin: 0 auto;
@@ -220,7 +223,7 @@ div > img{
   height: 800px;
   margin-top: 50px;
   border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(17, 17, 17, 0.05);
 }
 .last-section-text h2{
     font-size: 50px;
