@@ -23,8 +23,8 @@ nav {
   padding-top: 20px;
 }
 div > img{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     margin-top: 20px;
 }
 /* same description for both buttons */ 
@@ -269,11 +269,11 @@ div > img{
   width: 50%;
 }
 
-.contact-form label {
+.contact-form label{
   font-size: 30px;
   color: black
 }
-
+/* select two classes for input and textarea to have same style */
 .contact-form input,
 .contact-form textarea {
   padding: 30px;
@@ -324,14 +324,15 @@ div > img{
 .Menu li a{
   text-decoration: none;
   font-size: 30px;
-  color: rgb(92, 92, 92);
+  color: rgb(109, 109, 109);
   margin-left: 20px;
   gap: 20px;
 }
+/* add hover effect to buttons */
 .Primary-button:hover,
 .Secondary-button:hover,
 .Secondary-button-two:hover,
 .contact-form button:hover {
-  background-color: #02ecfd;
+  background-color: #14e3f1;
   cursor: pointer;
 }
