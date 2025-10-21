@@ -27,6 +27,7 @@ div > img{
     height: 120px;
     margin-top: 20px;
 }
+/* same description for both buttons */ 
 .Primary-button {
     padding: 10px 20px;
     font-size: 20px;
@@ -49,6 +50,7 @@ div > img{
     text-align: center;
     color: black;
 }
+/* applying same style for both buttons */
 .Secondary-button {
   border-radius: 10px;
   border-style: none;
@@ -131,7 +133,7 @@ div > img{
 }
 .User-ammount div p{
   font-size: 20px;
-  color: gray;
+  color: rgb(170, 170, 170);
   justify-content: space-between;
   text-align: center;
 }
